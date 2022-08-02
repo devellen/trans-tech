@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=K2D&display=swap');
+        @import url('https://fonts.googleapis.com/css2?family=Nunito&display=swap');
+    </style>
+    <link rel="stylesheet" href="css/style-form-usu.css">
+    <title>Cadastro de usuário</title>
+</head>
+
+<body id="body-cadas">
+    <div class="container">
+        <header>
+            <nav>
+                <div class="nav-container">
+                    <a href="index.html">
+                        <img id="logo" src="images/logo1.png" alt="">
+                    </a>
+                    <i class="fas fa-bars btn-menumobile"></i>
+                    <ul>
+                        <li>
+                            <a href="index.html">
+                                <button>Home</button>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="vagas.html">
+                                <button>Vagas</button>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="quemSomos.html">
+                                <button>Quem Somos</button>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="colabore.html">
+                                <button>Colabore</button>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="entrar.html">
+                                <button id="entrar">Entrar</button>
+                            </a>
+                        </li>
+                    </ul>
+                </div>
+            </nav>
+        </header>
+    </div>
+
+    <section>
+        <center> 
+            <form action="tela-sucesso2.html">
+            <fieldset class="field">
+                <div>
+                    <img id="logo-cadastro" src="images/logo2.png" alt="">
+                    <input type="text" class="form-usuario" name="nome" placeholder="Nome:">
+                    <br>
+                    <input type="text" class="form-usuario" name="telefone" placeholder="Telefone:">
+                    <br>
+                    <input type="text" class="form-usuario" name="cpf" placeholder="CPF:">
+                    <br>
+                    <input type="email" class="form-usuario" name="email" placeholder="Email:">
+                    <br>
+                    <input type="password" class="form-usuario" name="senha" placeholder="Senha:">
+                </div>
+                <div class="link-usu">
+                    <a href="#">Entrar com o LinkedIn</a>
+                </div>
+                <div>
+                    <input type="submit" class="btn-cadastrar" value="Cadastrar">
+                </div>
+            </fieldset>
+        </form>
+        </center>
+    </section>
+
+</body>
+
+</html>
